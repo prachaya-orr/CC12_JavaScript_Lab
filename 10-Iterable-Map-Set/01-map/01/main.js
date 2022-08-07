@@ -1,0 +1,14 @@
+
+
+// Map เป็น Objecty แบบหนึ่ง เวลาจะใช้ ต้องใช้ method ของมัน
+const map = new Map();
+
+
+map.set('name', 'Thomas');
+map.set('age', 31);
+map.set('name', 'Dan');
+map.delete('age');
+map.has('birthDate');
+map.size;
+map.clear();
+
