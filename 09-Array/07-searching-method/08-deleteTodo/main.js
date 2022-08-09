@@ -9,7 +9,7 @@ const tasks = [
 
     let foundIndex = tasks.findIndex((item)=> item.id == id)
     
-    if(foundIndex!==01){
+    if(foundIndex!==-1){
         tasks.splice(foundIndex,1)
     }
 
